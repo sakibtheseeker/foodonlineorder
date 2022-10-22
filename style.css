@@ -16,6 +16,21 @@ margin
     background: #FCFBFA;
     border-radius: 8px;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:  #212529;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#6c757d; 
+    border-radius: 50px;
+  }
 .card1{
     /* border: 1px solid lightgray; */
     box-shadow: 0 0 6px rgba(0,0,0,0.1);
