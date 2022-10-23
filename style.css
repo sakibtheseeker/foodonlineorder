@@ -85,6 +85,11 @@ margin
     }
 }
 
+.cover {
+    object-fit: cover;
+    width: 1200px ;
+    height: 610px
+  }
 .card1:hover{
     animation-name: card-animation;
     animation-duration: 300ms;
