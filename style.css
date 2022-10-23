@@ -31,6 +31,8 @@ margin
     background:#6c757d; 
     border-radius: 50px;
   }
+
+  
 .card1{
     /* border: 1px solid lightgray; */
     box-shadow: 0 0 6px rgba(0,0,0,0.1);
@@ -51,6 +53,7 @@ margin
     padding: 12px 24px;
     border: none;
     border-radius: 80px;
+   
 }
 
 .flex{
