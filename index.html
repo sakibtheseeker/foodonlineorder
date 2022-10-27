@@ -7,6 +7,56 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <SCRIPT>
+      function pizza() {
+          var x = document.getElementById('pizza');
+          if (x.style.display == 'none') {
+              x.style.display = 'flex';
+          } else {
+              x.style.display = 'none';
+          }
+      }
+      function burger() {
+          var x = document.getElementById('burger');
+          if (x.style.display == 'none') {
+              x.style.display = 'flex';
+          } else {
+              x.style.display = 'none';
+          }
+      }
+      function fries() {
+          var x = document.getElementById('fries');
+          if (x.style.display == 'none') {
+              x.style.display = 'flex';
+          } else {
+              x.style.display = 'none';
+          }
+      }
+      function sandwitch() {
+          var x = document.getElementById('sandwitch');
+          if (x.style.display == 'none') {
+              x.style.display = 'flex';
+          } else {
+              x.style.display = 'none';
+          }
+      }
+      function beverages() {
+          var x = document.getElementById('beverages');
+          if (x.style.display == 'none') {
+              x.style.display = 'flex';
+          } else {
+              x.style.display = 'none';
+          }
+      }
+      function deserts() {
+          var x = document.getElementById('deserts');
+          if (x.style.display == 'none') {
+              x.style.display = 'flex';
+          } else {
+              x.style.display = 'none';
+          }
+      }
+      </SCRIPT>
   </head>
   <body style="background-color: #faf5cf;">
     
@@ -69,7 +119,7 @@
       
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-              <img src="assets/img/burgers/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg" style="width: 1400px ;height: 610px" class="d-block w-100" alt="...">
+              <img src="assets/img/burgers/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg" style="width: 1400px ;height: 610px" class="cover d-block w-100" alt="...">
               
               <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
@@ -148,12 +198,12 @@
     Categories
   </button>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#pizza">Pizza</a></li>
-    <li><a class="dropdown-item" href="#burger">Burgers</a></li>
-    <li><a class="dropdown-item" href="#frenchfries">French Fries</a></li>
-    <li><a class="dropdown-item" href="#sandwitch">Sandwitches</a></li>
-    <li><a class="dropdown-item" href="#beverages">Beverages</a></li>
-    <li><a class="dropdown-item" href="#deserts">Deserts</a></li>
+    <li><a class="dropdown-item" href="#pizza" onclick="pizza()">Pizza</a></li>
+    <li><a class="dropdown-item" href="#burger" onclick="burger()">Burgers</a></li>
+    <li><a class="dropdown-item" href="#frenchfries" onclick="fries()">French Fries</a></li>
+    <li><a class="dropdown-item" href="#sandwitch" onclick="sandwitch()">Sandwitches</a></li>
+    <li><a class="dropdown-item" href="#beverages" onclick="beverages()">Beverages</a></li>
+    <li><a class="dropdown-item" href="#deserts" onclick="deserts()">Deserts</a></li>
   </ul>
 </div>
 </div>
@@ -177,18 +227,51 @@
             <button class="btn1">Add to cart</button>
         </div>
         <div class="card1" style="margin-right:30px ;">
-            <img src="assets/img/pizza/foad-roshan-Y6OgisiGBjM-unsplash.jpg" class="card1-img" alt="">
+            <img src="assets/img/pizza/foad-roshan-Y6OgisiGBjM-unsplash.jpg" style="object-fit: cover;" class="card1-img" alt="">
             <h3 style="padding-top:10px ;">Veggie Paradise</h3>
             <p style="padding-top:7px; padding-bottom:7px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae atque sint adipisci.</p>
             <button class="btn1">Add to cart</button>
         </div>
         <div class="card1">
           <img src="assets/img/pizza/ivan-torres-MQUqbmszGGM-unsplash.jpg" class="card1-img" alt="">
-          <h3 style="padding-top:10px ;">Chivken Fiesta</h3>
+          <h3 style="padding-top:10px ;">Chic
+            ken Fiesta</h3>
           <p style="padding-top:7px; padding-bottom:7px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae atque sint adipisci.</p>
           <button class="btn1">Add to cart</button>
       </div>
     </div>
+
+<!--burger-->
+
+<div class="flex" id="burger">
+     
+          
+  <div class="card1"  style="margin-right:30px ;">
+      <img src="assets/img/burgers/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" style="object-fit: cover;" class="card1-img" alt="">
+      <h3 style="padding-top:10px ;">Aloo Tikki Burger</h3>
+      <p style="padding-top:7px; padding-bottom:7px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae atque sint adipisci.</p>
+      <button class="btn1">Add to cart</button>
+  </div>
+
+  <div class="card1" style="margin-right:30px ;">
+      <img src="assets/img/burgers/zoran-borojevic-cvHxQExdKw8-unsplash.jpg" style="object-fit: cover;" class="card1-img" alt="">
+      <h3 style="padding-top:10px ;">Veg Supreme Burger</h3>
+      <p style="padding-top:7px; padding-bottom:7px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae atque sint adipisci.</p>
+      <button class="btn1">Add to cart</button>
+  </div>
+  <div class="card1" style="margin-right:30px ;">
+      <img src="assets/img/burgers/eiliv-sonas-aceron-5nvt9BrLaAc-unsplash.jpg" style="object-fit: cover;" class="card1-img" alt="">
+      <h3 style="padding-top:10px ;">Chicken Crispy Burger</h3>
+      <p style="padding-top:7px; padding-bottom:7px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae atque sint adipisci.</p>
+      <button class="btn1">Add to cart</button>
+  </div>
+  <div class="card1">
+    <img src="assets/img/burgers/food-photographer-phototastyfood-ru-E94j3rMcxlw-unsplash.jpg" style="object-fit: cover;" class="card1-img" alt="">
+    <h3 style="padding-top:10px ;">Chicken loaded Burger</h3>
+    <p style="padding-top:7px; padding-bottom:7px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae atque sint adipisci.</p>
+    <button class="btn1">Add to cart</button>
+</div>
+</div>
 
 
 
