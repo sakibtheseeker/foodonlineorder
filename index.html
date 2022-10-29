@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <SCRIPT>
+      function hideDef() {
+                document.getElementById("pizza").style.display = "flex";
+                document.getElementById("burger").style.display = "none";
+            }
       function pizza() {
           var x = document.getElementById('pizza');
           if (x.style.display == 'none') {
               x.style.display = 'flex';
+              document.getElementById("burger").style.display = "none";
           } else {
               x.style.display = 'none';
           }
@@ -20,45 +25,15 @@
           var x = document.getElementById('burger');
           if (x.style.display == 'none') {
               x.style.display = 'flex';
+              document.getElementById("pizza").style.display = "none";
           } else {
               x.style.display = 'none';
           }
       }
-      function fries() {
-          var x = document.getElementById('fries');
-          if (x.style.display == 'none') {
-              x.style.display = 'flex';
-          } else {
-              x.style.display = 'none';
-          }
-      }
-      function sandwitch() {
-          var x = document.getElementById('sandwitch');
-          if (x.style.display == 'none') {
-              x.style.display = 'flex';
-          } else {
-              x.style.display = 'none';
-          }
-      }
-      function beverages() {
-          var x = document.getElementById('beverages');
-          if (x.style.display == 'none') {
-              x.style.display = 'flex';
-          } else {
-              x.style.display = 'none';
-          }
-      }
-      function deserts() {
-          var x = document.getElementById('deserts');
-          if (x.style.display == 'none') {
-              x.style.display = 'flex';
-          } else {
-              x.style.display = 'none';
-          }
-      }
+     
       </SCRIPT>
   </head>
-  <body style="background-color: #faf5cf;">
+  <body style="background-color: #faf5cf;" onload="hideDef()">
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   
