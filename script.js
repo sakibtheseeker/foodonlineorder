@@ -4,6 +4,7 @@ function hideDef() {
     document.getElementById("fries").style.display = "none";
     document.getElementById("sandwitch").style.display = "none";
     document.getElementById("beverages").style.display = "none";
+    document.getElementById("salads").style.display = "none";
 }
 function pizza() {
 var x = document.getElementById('pizza');
@@ -13,6 +14,7 @@ if (x.style.display == 'none') {
   document.getElementById("fries").style.display = "none";
   document.getElementById("sandwitch").style.display = "none";
   document.getElementById("beverages").style.display = "none";
+  document.getElementById("salads").style.display = "none";
 } else {
   x.style.display = 'none';
 }
@@ -25,6 +27,7 @@ if (x.style.display == 'none') {
   document.getElementById("fries").style.display = "none";
   document.getElementById("sandwitch").style.display = "none";
   document.getElementById("beverages").style.display = "none";
+  document.getElementById("salads").style.display = "none";
 } else {
   x.style.display = 'none';
 }
@@ -37,6 +40,7 @@ if (x.style.display == 'none') {
   document.getElementById("pizza").style.display = "none";
   document.getElementById("sandwitch").style.display = "none";
   document.getElementById("beverages").style.display = "none";
+  document.getElementById("salads").style.display = "none";
 } else {
   x.style.display = 'none';
 }
@@ -49,6 +53,7 @@ if (x.style.display == 'none') {
   document.getElementById("pizza").style.display = "none";
   document.getElementById("fries").style.display = "none";
   document.getElementById("beverages").style.display = "none";
+  document.getElementById("salads").style.display = "none";
 } else {
   x.style.display = 'none';
 }
@@ -62,7 +67,22 @@ if (x.style.display == 'none') {
   document.getElementById("pizza").style.display = "none";
   document.getElementById("fries").style.display = "none";
   document.getElementById("sandwitch").style.display = "none";
+  document.getElementById("salads").style.display = "none";
 } else {
   x.style.display = 'none';
 }
 }
+
+function salads(){
+  var x = document.getElementById('salads');
+  if (x.style.display == 'none') {
+    x.style.display = 'flex';
+    document.getElementById("burger").style.display = "none";
+    document.getElementById("pizza").style.display = "none";
+    document.getElementById("fries").style.display = "none";
+    document.getElementById("sandwitch").style.display = "none";
+    document.getElementById("beverages").style.display = "none";
+  } else {
+    x.style.display = 'none';
+  }
+  }
