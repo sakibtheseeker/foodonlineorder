@@ -5,6 +5,7 @@ function hideDef() {
     document.getElementById("sandwitch").style.display = "none";
     document.getElementById("beverages").style.display = "none";
     document.getElementById("salads").style.display = "none";
+    document.getElementById("deserts").style.display = "none";
 }
 function pizza() {
 var x = document.getElementById('pizza');
@@ -15,6 +16,7 @@ if (x.style.display == 'none') {
   document.getElementById("sandwitch").style.display = "none";
   document.getElementById("beverages").style.display = "none";
   document.getElementById("salads").style.display = "none";
+  document.getElementById("deserts").style.display = "none";
 } else {
   x.style.display = 'none';
 }
@@ -28,6 +30,7 @@ if (x.style.display == 'none') {
   document.getElementById("sandwitch").style.display = "none";
   document.getElementById("beverages").style.display = "none";
   document.getElementById("salads").style.display = "none";
+  document.getElementById("deserts").style.display = "none";
 } else {
   x.style.display = 'none';
 }
@@ -41,6 +44,7 @@ if (x.style.display == 'none') {
   document.getElementById("sandwitch").style.display = "none";
   document.getElementById("beverages").style.display = "none";
   document.getElementById("salads").style.display = "none";
+  document.getElementById("deserts").style.display = "none";
 } else {
   x.style.display = 'none';
 }
@@ -54,6 +58,7 @@ if (x.style.display == 'none') {
   document.getElementById("fries").style.display = "none";
   document.getElementById("beverages").style.display = "none";
   document.getElementById("salads").style.display = "none";
+  document.getElementById("deserts").style.display = "none";
 } else {
   x.style.display = 'none';
 }
@@ -68,6 +73,7 @@ if (x.style.display == 'none') {
   document.getElementById("fries").style.display = "none";
   document.getElementById("sandwitch").style.display = "none";
   document.getElementById("salads").style.display = "none";
+  document.getElementById("deserts").style.display = "none";
 } else {
   x.style.display = 'none';
 }
@@ -82,7 +88,23 @@ function salads(){
     document.getElementById("fries").style.display = "none";
     document.getElementById("sandwitch").style.display = "none";
     document.getElementById("beverages").style.display = "none";
+    document.getElementById("deserts").style.display = "none";
   } else {
     x.style.display = 'none';
   }
   }
+
+  function deserts(){
+    var x = document.getElementById('deserts');
+    if (x.style.display == 'none') {
+      x.style.display = 'flex';
+      document.getElementById("burger").style.display = "none";
+      document.getElementById("pizza").style.display = "none";
+      document.getElementById("fries").style.display = "none";
+      document.getElementById("sandwitch").style.display = "none";
+      document.getElementById("beverages").style.display = "none";
+      document.getElementById("salads").style.display = "none";
+    } else {
+      x.style.display = 'none';
+    }
+    }
