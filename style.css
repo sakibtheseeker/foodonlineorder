@@ -96,6 +96,12 @@ margin
    
 }
 
+.fav{
+    width: 25px;
+    height: 25px;
+margin-right: 25px;
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
