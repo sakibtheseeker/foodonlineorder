@@ -108,3 +108,13 @@ function salads(){
       x.style.display = 'none';
     }
     }
+
+    function changeImage() {
+      var image = document.getElementById('myImage');
+      if (image.src.match("assets/icons/heart.png")) {
+          image.src = "assets/icons/heart (1).png";
+      }
+      else {
+          image.src = "assets/icons/heart.png";
+      }
+  }
