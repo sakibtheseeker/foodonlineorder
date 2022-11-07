@@ -7,6 +7,7 @@ function hideDef() {
     document.getElementById("salads").style.display = "none";
     document.getElementById("deserts").style.display = "none";
 }
+
 function pizza() {
 var x = document.getElementById('pizza');
 if (x.style.display == 'none') {
@@ -21,6 +22,7 @@ if (x.style.display == 'none') {
   x.style.display = 'none';
 }
 }
+
 function burger() {
 var x = document.getElementById('burger');
 if (x.style.display == 'none') {
@@ -109,12 +111,4 @@ function salads(){
     }
     }
 
-    function changeImage() {
-      var image = document.getElementById('myImage');
-      if (image.src.match("assets/icons/heart.png")) {
-          image.src = "assets/icons/heart (1).png";
-      }
-      else {
-          image.src = "assets/icons/heart.png";
-      }
-  }
+    
